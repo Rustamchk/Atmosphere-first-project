@@ -158,3 +158,32 @@ box-shadow: 0 0 10px white;
     border-radius: 10px;
     border: 2px solid black;
   }
+  #contacts {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 300%;
+    text-align: center;
+    background-image: url("https://phonoteka.org/uploads/posts/2021-06/1622500635_13-phonoteka_org-p-dzhungli-piksel-art-krasivo-16.jpg");
+    background-size: cover;
+  }
+
+  #footer {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vh;
+    background-color: black;
+    color: white;
+    font-size: 2vh;
+  }
+  @media screen and (max-width: 768px){
+    .contacts {
+      font-size: 50%
+    }
+  }
